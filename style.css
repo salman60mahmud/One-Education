@@ -1,0 +1,443 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #faf3f3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+
+/* header part starts here */
+.header {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 777px;
+}
+
+/* navbar starts here */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+
+}
+
+.logo img {
+    height: 58px;
+    padding-top: 5px;
+}
+
+.collapse-navbar-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.collapse-navbar-left a {
+    text-decoration: none;
+    color: #463931;
+    font-size: 20px;
+
+}
+
+.collapse-navbar-left a:hover {
+    text-shadow: 0 1px 1px rgb(68, 13, 13);
+}
+
+.collapse-navbar-right {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+
+}
+
+.collapse-navbar-right a {
+    font-size: 20px;
+    color: #7d9466;
+    text-decoration: none;
+}
+
+.collapse-navbar-right a:hover {
+    text-shadow: 0 1px 1px rgb(27, 58, 15);
+}
+
+.collapse-navbar-right button {
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #96BB7C;
+    padding: 14px 34px 13px 24px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.collapse-navbar-right button:hover {
+    color: #96BB7C;
+    background-color: #FFFFFF;
+}
+
+/* navbar ends here */
+
+
+/* hero section starts here */
+.hero-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+#left {
+    width: 44%;
+    padding: 60px;
+    margin-left: 40px;
+
+}
+
+#left h1 {
+    color: #252B42;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.blue {
+    color: rgb(40, 40, 185);
+}
+
+#left h4 {
+    color: #96BB7C;
+    font-size: 18px;
+}
+
+#left p {
+    color: #4d663b;
+    font-size: 24px;
+}
+
+#first {
+    color: azure;
+    background-color: #d82ac4;
+    font-size: 18px;
+    padding: 17px 22px 17px 27px;
+    border-radius: 7px;
+    border: 0;
+    box-shadow: 2px 3px 1px rgb(46, 14, 14);
+
+}
+
+#second {
+    color: rgb(35, 54, 221);
+    background-color: whitesmoke;
+    font-size: 18px;
+    padding: 17px 22px 17px 27px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 1px rgb(20, 35, 100);
+    margin-left: 15px;
+}
+
+#first:hover {
+    color: #d82ac4;
+    background-color: whitesmoke;
+    border: 2px solid rgb(46, 14, 14);
+    cursor: pointer;
+}
+
+#second:hover {
+    color: white;
+    background-color: #6022d4;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 2px 3px 1px rgb(46, 14, 14);
+}
+
+#right {
+    width: 56%;
+
+}
+
+#right img {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* header part ends here  */
+
+/* second section starts */
+
+
+/* courses text para */
+.courses {
+    margin-bottom: 112px;
+}
+
+.courses-part-1 {
+    margin: 112px 0 112px 145px;
+}
+
+
+h6 {
+    color: #8baa75;
+    font-size: 19px;
+
+}
+
+h2 {
+    color: #252B42;
+    font-size: 40px;
+}
+
+p {
+    color: #252B42;
+    font-size: 16px;
+}
+
+/* courses cards */
+.courses-part-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* red-dash codes for all fours cards */
+.red-dash {
+    margin-top: -2px;
+    height: 2px;
+    width: 50px;
+    background-color: red;
+}
+
+/* first card */
+.card1 {
+    height: 288px;
+    width: 238px;
+    box-shadow: 1px 3px 6px rgb(177, 172, 161);
+    padding: 40px 35px;
+}
+
+.card1 img {
+    height: 72px;
+}
+
+.card1 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card1 p {
+    padding: 1px;
+
+}
+
+/* second card */
+.card2 {
+    height: 288px;
+    width: 238px;
+    box-shadow: 1px 3px 6px rgb(177, 172, 161);
+    padding: 40px 35px;
+}
+
+.card2 img {
+    height: 72px;
+}
+
+.card2 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card2 p {
+    padding: 1px;
+
+}
+
+/* third card */
+.card3 {
+    height: 288px;
+    width: 238px;
+    box-shadow: 1px 3px 6px rgb(177, 172, 161);
+    padding: 40px 35px;
+    background-color: #96BB7C;
+    margin-bottom: 112px;
+}
+
+.card3 img {
+    height: 72px;
+}
+
+.card3 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.card3 p {
+    padding: 1px;
+
+}
+
+/* fourth card */
+.card4 {
+    height: 288px;
+    width: 238px;
+    box-shadow: 1px 3px 6px rgb(177, 172, 161);
+    padding: 40px 35px;
+}
+
+.card4 img {
+    height: 72px;
+}
+
+.card4 h5 {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+
+.card4 p {
+    padding: 1px;
+
+}
+
+/* third section starts */
+.third {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+/* image section */
+.third-img {
+    width: 50%;
+    position: relative;
+    background-image: url(circle.png);
+    background-repeat: no-repeat;
+    background-position: 300px 30px;
+
+}
+
+.girl {
+    position: absolute;
+    margin: -60px 300px;
+}
+
+.up-down {
+    position: absolute;
+    margin: 145px 0 0 565px;
+}
+
+.up-down-graph {
+    position: absolute;
+    margin: -60px 0 0 236px;
+}
+
+.pie-chart {
+    position: absolute;
+    margin: 226px 0 0 486px;
+}
+
+.red-dot {
+    position: absolute;
+    margin: 170px 0 0 270px;
+}
+
+.graph {
+    position: absolute;
+    margin: 230px 0 0 275px;
+}
+
+/* text section */
+.third-text {
+    width: 50%;
+
+}
+
+.right-side-text {
+    height: 296px;
+    width: 381px;
+    margin-left: 140px;
+}
+
+.red-dash-big {
+    height: 7px;
+    width: 94px;
+    background-color: #E74040;
+
+}
+
+.third-text h1 {
+    font-size: 42px;
+}
+
+.right-side-text p {
+    margin-bottom: 10px;
+
+}
+
+.right-side-text a {
+    text-decoration: none;
+    color: #6baa3e;
+}
+
+/* fourth section starts */
+.fourth-section {
+    display: flex;
+    gap: 30px;
+    margin: 320px auto 0 auto;
+
+}
+
+.fourth-text {
+    width: 50%;
+    margin-left: 130px;
+
+}
+
+.fourth-text p {
+    font-size: 17px;
+    margin-bottom: 18px;
+}
+
+.fourth-text a {
+    text-decoration: none;
+    color: #496436;
+}
+
+.fourth-video {
+    width: 50%;
+}
+
+
+
+
+
+
+
+/* scrollbar code */
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#acac11, #1e6e0cb6);
+}
