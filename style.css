@@ -102,7 +102,7 @@ body {
 }
 
 #left {
-    width:50%;
+    width: 50%;
     padding: 60px;
     margin-left: 40px;
 
@@ -528,7 +528,7 @@ p {
 .fifth-bottom-text {
     margin-top: 15px;
     margin-left: 15px;
-    height: 302px;
+    height: 312px;
 }
 
 .card-text-1 {
@@ -579,7 +579,7 @@ p {
 }
 
 .learn-more button {
-    margin-top: 10px;
+    margin: 10px 0 10px 25px;
     color: #53852f;
     height: 44px;
     width: 144px;
@@ -604,60 +604,12 @@ p {
 
 }
 
-.sale {
-    position: absolute;
-    height: 24px;
-    width: 51px;
-    color: white;
-    background-color: rgb(216, 31, 31);
-    border-radius: 4px;
-    text-align: center;
-    margin: 16px;
-}
-
-.three-icons {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 240px 0 0 50px;
-}
-
-.bc1 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 26px;
-    text-align: center;
-
-}
-
-.bc2 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 23px;
-    text-align: center;
-
-}
-
-.bc3 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 25px;
-    text-align: center;
-
-}
 
 /* fifth card text */
 
 .fifth-bottom-text2 {
     margin-top: 15px;
-    height: 302px;
+    height: 312px;
     margin-left: 15px;
 }
 
@@ -678,13 +630,6 @@ p {
     background-color: #1f2e15;
     color: whitesmoke;
     border-radius: 10px;
-}
-
-.star-color {
-    color: yellow;
-    margin-left: 4px;
-    margin-right: 5px;
-
 }
 
 .card2-text-2 h5 {
@@ -708,15 +653,6 @@ p {
     color: rgb(216, 31, 31);
 }
 
-.learn-more button {
-    margin-top: 10px;
-    color: #53852f;
-    height: 44px;
-    width: 144px;
-    border: 2px solid green;
-    border-radius: 10px;
-}
-
 /* third card  */
 .fifth-card3 {
     width: 238px;
@@ -734,60 +670,12 @@ p {
 
 }
 
-.sale {
-    position: absolute;
-    height: 24px;
-    width: 51px;
-    color: white;
-    background-color: rgb(216, 31, 31);
-    border-radius: 4px;
-    text-align: center;
-    margin: 16px;
-}
-
-.three-icons {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 240px 0 0 50px;
-}
-
-.bc1 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 26px;
-    text-align: center;
-
-}
-
-.bc2 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 23px;
-    text-align: center;
-
-}
-
-.bc3 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 25px;
-    text-align: center;
-
-}
 
 /* fifth card text */
 
 .fifth-bottom-text3 {
     margin-top: 15px;
-    height: 302px;
+    height: 312px;
     margin-left: 15px;
 }
 
@@ -810,12 +698,6 @@ p {
     border-radius: 10px;
 }
 
-.star-color {
-    color: yellow;
-    margin-left: 4px;
-    margin-right: 5px;
-
-}
 
 .card3-text-2 h5 {
     margin-top: -20px;
@@ -838,16 +720,6 @@ p {
     color: rgb(216, 31, 31);
 }
 
-.learn-more button {
-    margin-top: 10px;
-    color: #53852f;
-    height: 44px;
-    width: 144px;
-    border: 2px solid green;
-    border-radius: 10px;
-}
-
-
 /* fourth card */
 .fifth-card4 {
     width: 238px;
@@ -865,61 +737,13 @@ p {
 
 }
 
-.sale {
-    position: absolute;
-    height: 24px;
-    width: 51px;
-    color: white;
-    background-color: rgb(216, 31, 31);
-    border-radius: 4px;
-    text-align: center;
-    margin: 16px;
-}
-
-.three-icons {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 240px 0 0 50px;
-}
-
-.bc1 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 26px;
-    text-align: center;
-
-}
-
-.bc2 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 23px;
-    text-align: center;
-
-}
-
-.bc3 {
-    height: 40px;
-    width: 40px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    font-size: 25px;
-    text-align: center;
-
-}
 
 /* fifth card text */
 
 .fifth-bottom-text4 {
     margin-top: 15px;
     margin-left: 15px;
-    height: 302px;
+    height: 312px;
 }
 
 .card4-text-1 {
@@ -939,13 +763,6 @@ p {
     background-color: #1f2e15;
     color: whitesmoke;
     border-radius: 10px;
-}
-
-.star-color {
-    color: yellow;
-    margin-left: 4px;
-    margin-right: 5px;
-
 }
 
 .card4-text-2 h5 {
@@ -969,14 +786,6 @@ p {
     color: rgb(216, 31, 31);
 }
 
-.learn-more button {
-    margin-top: 10px;
-    color: #53852f;
-    height: 44px;
-    width: 144px;
-    border: 2px solid green;
-    border-radius: 10px;
-}
 
 /* sixth section starts */
 
@@ -1483,8 +1292,6 @@ ul {
         margin-right: auto;
     }
 
-
-
 }
 
 @media screen and (max-width:1280px) {
@@ -1609,9 +1416,7 @@ ul {
         font-size: 36px;
 
     }
-    .footer-col ul li a {
 
-    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1653,7 +1458,6 @@ ul {
 
     #left {
         margin-left: -30px;
-        flex-wrap: nowrap;
     }
 
     #right img {
@@ -1666,11 +1470,14 @@ ul {
     }
 
     .courses-part-1 {
-        margin: 112px 0 112px 55px;
+        margin: 112px 0 112px 170px;
+
     }
 
     .courses-part-2 {
-        gap: 10px;
+        column-gap: 160px;
+        row-gap: 50px;
+        flex-wrap: wrap;
     }
 
     .third-img {
@@ -1685,10 +1492,21 @@ ul {
         margin-left: 160px;
     }
 
+    .fourth-text {
+        margin-left: 100px;
+
+    }
+
+    .fourth-video video {
+        width: 400px;
+    }
+
     .fifth-section-cards {
         padding: 130px;
-        gap: 20px;
+        column-gap: 70px;
+        row-gap: 40px;
         margin-left: -3px;
+        flex-wrap: wrap;
     }
 
     .sixth-section {
@@ -1698,12 +1516,14 @@ ul {
 
     .sixth-section-cards {
         margin-top: 80px;
-        gap: 20px;
+        gap: 40px;
+        flex-wrap: wrap;
 
     }
 
     .new img {
         height: 60px;
+        margin-left: 130px;
     }
 
     .teachers-profiles {
@@ -1715,42 +1535,4 @@ ul {
         gap: 2px;
     }
 
-}
-@media screen and (max-width: 768px) {
-    .logo img {
-        height: 20px;
-        padding-top: 0px;
-        margin-left: 40px;
-    }
-    .collapse-navbar-left {
-        margin-left: 20px;
-    }
-
-
-    #left {
-    width: 50%;
-    }
-    #right {
-        width: 50%;
-    }
-    #right img {
-        height: 20px;
-    }
-
-    .courses-part-2 {
-        flex-wrap: wrap;
-    }
-
-    .third {
-        flex-wrap: wrap-reverse;
-        padding: 0 0;
-    }
-    .third-text {
-        width: 50%;
-    
-    }
-    .third-img {
-        width: 50%;
-    
-    }
 }
