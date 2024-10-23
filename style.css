@@ -106,7 +106,7 @@ body {
 }
 
 #left {
-    width: 44%;
+    width: 50%;
     padding: 60px;
     margin-left: 40px;
 
@@ -169,7 +169,7 @@ body {
 }
 
 #right {
-    width: 56%;
+    width: 50%;
 
 }
 
@@ -331,6 +331,7 @@ p {
     background-image: url(circle.png);
     background-repeat: no-repeat;
     background-position: 300px 30px;
+    margin-left: 200px;
 
 }
 
@@ -407,7 +408,7 @@ p {
 
 .fourth-text {
     width: 50%;
-    margin-left: 130px;
+    margin-left: 200px;
 
 }
 
@@ -456,10 +457,10 @@ p {
 /* fifth section cards */
 
 .fifth-section-cards {
-    padding: 160px;
+    padding: 160px 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 /* first card */
@@ -798,7 +799,6 @@ p {
 
 .sixth-section {
     padding: 160px 0;
-
 }
 
 .six-section-text {
@@ -824,7 +824,7 @@ p {
     display: flex;
     margin-top: 80px;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 
 }
 
@@ -890,16 +890,39 @@ p {
 .sixth-second-card {
     width: 328px;
     box-shadow: 2px 2px 4px rgb(173, 170, 164), -2px -1px 3px rgb(173, 170, 164);
-    background-color: #dcdf2e;
+    background-color: #2D4059;
     border-radius: 3px;
     position: relative;
 
+}
 
+.sixth-second-card h3 {
+    color: #ffffff;
+}
+
+.two-line-text2 {
+    color: #ffffff;
+}
+
+.three-line-text2 {
+    color: #ffffff;
+}
+
+#per-month2 h6 {
+    color: #2D6CCB;
+    text-align: center;
+    margin-top: -35px;
 }
 
 .new {
     position: absolute;
     margin: -630px 0 0 160px;
+}
+
+.month h6 {
+    color: #2D4059;
+    text-align: center;
+    margin-top: -35px;
 }
 
 .sixth-second-card img {
@@ -916,7 +939,7 @@ p {
 }
 
 .sixth-second-card h6 {
-    color: #1f2e15;
+    color: #ffffff;
     width: 200px;
     font-size: 17px;
     margin-top: 35px;
@@ -940,6 +963,7 @@ p {
     margin-left: 50px;
     font-size: 15px;
     width: 250px;
+    color: #ffffff;
 }
 
 .sixth-second-card button {
@@ -1009,13 +1033,7 @@ p {
 
 /* seventh section starts */
 .seventh-section {
-    padding: 160px 0;
-    margin-left: 200px;
-}
-
-.seventh-section-text {
-    width: 691px;
-
+    padding: 160px;
 }
 
 .seventh-section-text h6 {
@@ -1612,7 +1630,10 @@ ul {
     }
 
     .fifth-section-cards {
+        padding: 70px;
         gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .sixth-section-cards {
@@ -1772,118 +1793,3 @@ ul {
     }
 
 }
-
-/* @media screen and (max-width: 480px) {
-.logo img {
-    height: 50px;
-    padding-top: 0px;
-    margin-left: 40px;
-}
-  .navbar {
-    gap: 180px;
-    margin-left: 40px;
-  }
-
-.hero-section {
-    flex-wrap: wrap-reverse;
-    gap: 10px;
-
-}
-
-#right {
-    margin-left: 60px;
-}
-
-#left {
-    margin: 60px 0 0 150px;
-    padding: 10px;
-}
-#left h4 {
-    font-size: 16px;
-}
-
-.courses {
-    margin-top: 312px;
-    padding: 112px 0;
-}
-
-.courses-part-2 {
-   gap: 0px;
-   flex-wrap: wrap;
-}
-
-.third {
-    flex-wrap: wrap;
-    gap: 400px;
-    padding: 50px 0;
-    margin-left: 40px;
-}
-
-.third-text {
-    width: 100%;
-    margin-top: 60px;
-
-}
-
-.third-img {
-    width: 100%;
-
-}
-
-.fourth-video video {
-    width: 350px;
-    margin-top: 70px;
-}
-.fifth-section {
-    flex-wrap: wrap-reverse;
-}
-.fourth-text {
-    width: 100%;
-}
-.fourth-video {
-    width: 100%;
-}
-.fifth-section {
-    margin-left: -20px;
-}
-
-.fifth-section-cards {
-    gap: 30px;
-}
-
-.sixth-section-cards {
-    margin-left: 15px;
-}
-.teacher1 {
-    width: 100%;
-
-}
-.teacher2 {
-    width: 100%;
-
-}
-.teachers-profiles {
-    flex-wrap: wrap;
-    margin-left: 100px;
-}
-.seventh-section {
-    padding: 160px 0;
-    margin-left: 100px;
-}
-.eighth-section {
-    width: 100%;
-}
-.footer {
-    width: 100%;
-}
-.row {
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.footer-col {
-    width: 30%;
-    padding: 0 15px;
-}
-
-} */
