@@ -102,7 +102,7 @@ body {
 }
 
 #left {
-    width: 44%;
+    width:50%;
     padding: 60px;
     margin-left: 40px;
 
@@ -165,7 +165,7 @@ body {
 }
 
 #right {
-    width: 56%;
+    width: 0%;
 
 }
 
@@ -316,6 +316,7 @@ p {
     display: flex;
     justify-content: center;
     padding: 140px 0;
+    gap: 5px;
 }
 
 /* image section */
@@ -1375,6 +1376,7 @@ teacher2 {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul {
@@ -1382,7 +1384,7 @@ ul {
 }
 
 .footer-col {
-    width: 20%;
+    width: 18%;
     padding: 0 15px;
 }
 
@@ -1480,6 +1482,8 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
+
+
 
 }
 
@@ -1605,6 +1609,9 @@ ul {
         font-size: 36px;
 
     }
+    .footer-col ul li a {
+
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -1647,10 +1654,6 @@ ul {
     #left {
         margin-left: -30px;
         flex-wrap: nowrap;
-    }
-
-    #right {
-        width: 50%;
     }
 
     #right img {
@@ -1708,14 +1711,46 @@ ul {
         max-width: 1024px;
     }
 
-
-    .footer {
-        line-height: 1.1;
-        max-width: 1024px;
-    }
-
     .row {
-        gap: 3px;
+        gap: 2px;
     }
 
+}
+@media screen and (max-width: 768px) {
+    .logo img {
+        height: 20px;
+        padding-top: 0px;
+        margin-left: 40px;
+    }
+    .collapse-navbar-left {
+        margin-left: 20px;
+    }
+
+
+    #left {
+    width: 50%;
+    }
+    #right {
+        width: 50%;
+    }
+    #right img {
+        height: 20px;
+    }
+
+    .courses-part-2 {
+        flex-wrap: wrap;
+    }
+
+    .third {
+        flex-wrap: wrap-reverse;
+        padding: 0 0;
+    }
+    .third-text {
+        width: 50%;
+    
+    }
+    .third-img {
+        width: 50%;
+    
+    }
 }
