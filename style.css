@@ -1055,14 +1055,13 @@ p {
 .teachers-profiles {
     margin-top: 96px;
     display: flex;
-    justify-content: center;
-    gap: 5px;
+    justify-content: space-around;
+    gap: 50px;
 
 }
 
 .teacher1 {
-    width: 480px;
-    height: 378px;
+    width: 50%;
 
 }
 
@@ -1081,6 +1080,7 @@ p {
 .rating-stars-1 {
     color: rgb(199, 199, 14);
     margin: 0 100px 0 100px;
+    display: flex;
 }
 
 .profile-name-1 {
@@ -1100,8 +1100,7 @@ p {
 
 /* second teacher */
 teacher2 {
-    width: 480px;
-    height: 378px;
+    width: 50%;
 
 }
 
@@ -1120,6 +1119,7 @@ teacher2 {
 .rating-stars-2 {
     color: rgb(199, 199, 14);
     margin: 0 115px 0 115px;
+    display: flex;
 }
 
 .profile-name-2 {
@@ -1139,6 +1139,7 @@ teacher2 {
 /* eighth section starts */
 .eighth-section {
     background-color: #f7e0e0;
+    margin-top: 100px;
 
 }
 
@@ -1586,6 +1587,7 @@ ul {
 
     #right {
         margin-left: 60px;
+        width: 100%;
     }
 
     #left {
@@ -1694,6 +1696,7 @@ ul {
     .collapse-navbar-right {
         gap: 25px;
         margin-right: 30px;
+        width: 100%;
 
     }
 
@@ -1709,12 +1712,35 @@ ul {
 
     }
 
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
     #left h1 {
-        font-size: 28px;
+        font-size: 38px;
+    }
+
+    #left p,
+    h6 {
+        font-size: 20px;
     }
 
     #left {
-        margin-left: -30px;
+        margin-left: 140px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right {
+        width: 100%;
+        margin-left: 20px;
     }
 
     #right img {
@@ -1722,48 +1748,81 @@ ul {
         height: auto;
     }
 
+    #second {
+        margin-top: 15px;
+    }
+
     .courses {
-        padding: 80px 0;
+        margin-top: 400px;
+
     }
 
     .courses-part-1 {
-        margin: 112px 0 112px 170px;
+        margin: 152px 0 0 270px;
 
     }
 
     .courses-part-2 {
-        column-gap: 160px;
-        row-gap: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
+    }
+
+    .courses-part-1 h6 {
+        font-size: 18px;
+    }
+
+    .courses-part-1 p {
+        font-size: 21px;
     }
 
     .third-img {
-        margin-left: -250px;
+        margin-top: -250px;
+        width: 100%;
+    }
+
+    .third-text {
+        width: 100%;
     }
 
     .third {
-        gap: 40px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
-    .right-side-text {
-        margin-left: 160px;
+    .fourth-section {
+        margin-top: 200px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .fourth-text {
-        margin-left: 100px;
+        margin-left: 200px;
+        width: 100%;
+    }
 
+    .fourth-text p {
+        font-size: 22px;
+    }
+
+    .fourth-text a {
+        font-size: 22px;
     }
 
     .fourth-video video {
-        width: 400px;
+        width: 600px;
     }
 
     .fifth-section-cards {
+        margin-left: 300px;
         padding: 130px;
-        column-gap: 70px;
-        row-gap: 40px;
-        margin-left: -3px;
+        column-gap: 20px;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .sixth-section {
@@ -1771,8 +1830,13 @@ ul {
 
     }
 
+    .sixth-section-text p {
+        margin-left: 200px;
+    }
+
     .sixth-section-cards {
         margin-top: 80px;
+        margin-left: 250px;
         gap: 40px;
         flex-wrap: wrap;
 
@@ -1780,16 +1844,19 @@ ul {
 
     .new img {
         height: 60px;
-        margin-left: 130px;
+        margin-left: 110px;
     }
-
+    
+    .seventh-section {
+        margin-left: 150px;
+    }
     .teachers-profiles {
-        margin-left: 70px;
-        max-width: 1024px;
+        margin-left: 100px;
+        flex-wrap: wrap;
+        column-gap: 10px;
     }
 
-    .row {
-        gap: 2px;
-    }
-
+   .eighth-section {
+    width: 100%;
+   }
 }
