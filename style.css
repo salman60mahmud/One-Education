@@ -1055,8 +1055,10 @@ p {
 .teachers-profiles {
     margin-top: 96px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
 
 }
 
@@ -1169,7 +1171,6 @@ teacher2 {
     display: flex;
     justify-content: center;
 
-
 }
 
 .input #email {
@@ -1200,7 +1201,7 @@ teacher2 {
 /* ninth section starts */
 
 .footer {
-    background-color: #24262b;
+    background-color: #2c3349;
     padding: 70px 0;
     line-height: 1.5;
 
@@ -1244,7 +1245,7 @@ ul {
 
 .footer-col ul li a {
     font-size: 16px;
-    color: #bbbbbb;
+    color: #e0dede;
     text-decoration: none;
     font-weight: 400;
     display: block;
@@ -1264,7 +1265,7 @@ ul {
     align-items: center;
     height: 60px;
     margin-top: -20px;
-    background-color: rgb(158, 166, 236);
+    background-color: rgb(192, 197, 241);
 }
 
 .credit p {
@@ -1441,6 +1442,10 @@ ul {
 
     }
 
+    .teachers-profiles {
+        gap: 80px;
+    }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -1551,7 +1556,7 @@ ul {
     }
 
     .teachers-profiles {
-        margin-left: 70px;
+        gap: 130px;
         max-width: 1024px;
     }
 
@@ -1643,18 +1648,23 @@ ul {
     }
 
     .teacher1 {
-        width: 50%;
+        width: 1000%;
 
     }
 
     .teacher2 {
-        width: 50%;
+        width: 100%;
 
     }
 
     .seventh-section {
         padding: 160px 0;
         margin-left: 100px;
+    }
+
+    .teachers-profiles {
+        flex-wrap: wrap;
+        margin-left: -70px;
     }
 
     .eighth-section {
@@ -1759,22 +1769,15 @@ ul {
 
     .courses-part-1 {
         margin: 152px 0 0 270px;
+    }
 
+    .fixing {
+        margin-top: -110px;
     }
 
     .courses-part-2 {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .courses-part-1 h6 {
-        font-size: 18px;
-    }
-
-    .courses-part-1 p {
-        font-size: 21px;
+        margin-top: 100px;
+        margin-left: 240px;
     }
 
     .third-img {
@@ -1839,24 +1842,28 @@ ul {
         margin-left: 250px;
         gap: 40px;
         flex-wrap: wrap;
-
     }
 
     .new img {
         height: 60px;
         margin-left: 110px;
     }
-    
+
     .seventh-section {
         margin-left: 150px;
     }
+
     .teachers-profiles {
-        margin-left: 100px;
         flex-wrap: wrap;
         column-gap: 10px;
     }
 
-   .eighth-section {
-    width: 100%;
-   }
+    .eighth-section {
+        margin-left: 200px;
+        width: 100%;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
 }
